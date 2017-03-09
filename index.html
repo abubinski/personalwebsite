@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset   ="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name      ="viewport" content="width=device-width, initial-scale=1">
+   
+      <title>Annie Bubinski</title>
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+  </head>
+  
+  <body data-spy="scroll" data-target="#mainNavbar" data-offset="10">
+   
+    <!-- Navbar -->
+    <nav id="mainNavbar" class="navbar navbar-inverse navbar-fixed-top" id ="my-navbar">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#about">Annie Bubinski</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#about">About me <span class="sr-only">(current)</span></a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#resume">Resume</a></li>
+          </ul>
+     
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#link">Link</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<!--jumbotron-->
+    <div class="jumbotron">
+      <div class="container text-center" id="about">
+
+        <h1>About Me</h1>
+          <p> I am a Community Evangelist for Microsoft based in Los Angeles. 
+          I am passionate about helping students bring new ideas to life and have attended 17+ hackathons in the last 1.5 years. 
+          In college, I studied Industrial and Systems Engineering at USC and I am an avid Trojan fan. 
+          Outside of work, I enjoy urban gardening and watching movies. </p>
+            <img src = "docs/headshot.jpg" style="width:200px">
+      </div>
+    </div>
+
+    <div class="container">
+      <section>
+        <div class="page-header" id="community">
+          <h1>Upcoming - In the Community</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <blockquote>
+              <p>Building a Personal Website with Bootstrap </p>
+              <p>In this hands on workshop, we will design a personal website using HTML, CSS, and JavaScript. We will learn how to incorporate Bootstrap (http://getbootstrap.com/) design templates for features like typography, forms, buttons, navigation and more. Lastly, we will host our web app in the cloud using Azure (https://azure.microsoft.com) so we can share it with the world.</p>
+            </blockquote>
+          </div>
+        
+          <div class="col-lg-6">
+            <blockquote>
+              <p>  Pokémon Go Make a Website </p>
+              <p> Learn the basics of HTML and CSS to create a Pokémon themed website. I’ll cover how to add text, images and style (fonts/colors) to your locally hosted website in this hands-on lab. We will use the editor Visual Studio Code for students with Macs or Windows (download @ www.code.visualstudio.com) or jsFiddle.net for students with Chromebooks. Computer needed. Artistic freedom granted for students not interested in Pokémon. Best for students 12+.</p>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </div>
+
+      <!-- Resume in 16:9 aspect ratio -->
+    <div class="container" id="resume">
+        <h1>Resume</h1>
+      <div class="embed-responsive embed-responsive-4by3">
+          <iframe class="resume" src="docs/resume.pdf"></iframe>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -4,70 +4,58 @@
     <meta charset   ="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name      ="viewport" content="width=device-width, initial-scale=1">
-   
-      <title>Annie Bubinski</title>
-        
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="main.css">
+    <title>annie bubinski</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" type="text/css">
   </head>
-  
-  <body data-spy="scroll" data-target="#mainNavbar" data-offset="10">
+
+  <!--SCROLLSPY-->
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
    
-    <!-- Navbar -->
-    <nav id="mainNavbar" class="navbar navbar-inverse navbar-fixed-top" id ="my-navbar">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="navbar-collapse" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#about">Annie Bubinski</a>
+          <a class="navbar-brand" href="#about">annie bubinski</a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#about">About me <span class="sr-only">(current)</span></a></li>
-            <li><a href="#presentations">Presentations</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#projects">projects </a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href='https://www.linkedin.com/in/annie-bubinski-247556b1/'><span class="glyphicon glyphicon-user"></span> Linked In</a></li>
+          <li><a href="https://github.com/abubinski"><span class="glyphicon glyphicon-user"></span> GitHub</a></li>
+          <li><a href="https://twitter.com/abubinski"><span class="glyphicon glyphicon-user"></span> Twitter</a></li>
+      </div>
     </nav>
 
-<!--jumbotron-->
-    <div class="jumbotron">
-      <div class="container text-center" id="about">
-
-        <h1>About Me</h1>
-          <p> I am a Community Evangelist for Microsoft based in Los Angeles. 
-          I am passionate about helping students bring new ideas to life and have attended 17+ hackathons in the last 1.5 years. 
-          In college, I studied Industrial and Systems Engineering at USC and I am an avid Trojan fan. 
-          Outside of work, I enjoy urban gardening and watching movies. </p>
+<!-- ABOUT -->
+    <div class ="about" id="about">
+        <h1>annie bubinski</h1>
+          <p> I am a Community Evangelist for Microsoft based in Los Angeles who focuses on the developer ecosystem on the west coast. I have attended over 20 hackathons in the last 2 years and most recently have began playing around with data sets and Python to see what Machine Learning can do. In college, I studied Industrial and Systems Engineering at USC and I am an avid Trojan fan. Outside of work, I enjoy urban gardening and watching movies. </p>
             <img src = "docs/headshot.jpg" style="width:200px">
-      </div>
     </div>
 
+<!-- PROJECTS -->
     <div class="container">
       <section>
-        <div class="page-header" id="presentations">
-          <h1>Presentations</h1>
+        <div class="page-header" id="projects">
+          <h1>projects</h1>
         </div>
 
         <div class="row">
           <div class="col-lg-6">
             <blockquote>
-              <p>Building a Personal Website with Bootstrap </p>
-              <p>In this hands on workshop, we will design a personal website using HTML, CSS, and JavaScript. We will learn how to incorporate Bootstrap (http://getbootstrap.com/) design templates for features like typography, forms, buttons, navigation and more. Lastly, we will host our web app in the cloud using Azure (https://azure.microsoft.com) so we can share it with the world.</p>
+              <a href = "https://github.com/tierwixt/FaceJamz">FaceJamz IoT</a>
+              <p>This simple IoT project uses a Raspberry Pi, camera module, and Microsoft's Emotion API to take a photograph of someones face and play a song based on their mood.</p>
             </blockquote>
           </div>
         
           <div class="col-lg-6">
             <blockquote>
-              <p>  Pokémon Go Make a Website </p>
-              <p> Learn the basics of HTML and CSS to create a Pokémon themed website. I’ll cover how to add text, images and style (fonts/colors) to your locally hosted website in this hands-on lab. We will use the editor Visual Studio Code for students with Macs or Windows (download @ www.code.visualstudio.com) or jsFiddle.net for students with Chromebooks. Computer needed. Artistic freedom granted for students not interested in Pokémon. Best for students 12+.</p>
+              <a href="https://github.com/abubinski/TitanicSurvivalPython">  Machine Learning on the Titanic </a>
+              <p> Using Jupyter Notebook and Python I created a Machine Learning model to predict survivors of the Titanic at an 81% accuracy rate.</p>
             </blockquote>
           </div>
         </div>

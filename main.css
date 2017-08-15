@@ -1,21 +1,21 @@
 body {     
     position: relative;
+    font-family: Georgia;
+    padding-bottom: 200px;
 } 
 
-.jumbotron {
-    background-color: lightblue; 
+.about {
+    padding-top: 50px;
+    text-align: center;
 }
 
 h1 {    
-    font-family: Georgia;
+    padding-top: 50px;
     text-align: center;     
-    font-style: italic;
-    padding-top: 50px; 
-        } 
+} 
  
-p {     
-    font-family: Arial;     
+p {        
     font-size: 20px;     
         
-        } 
+} 
  

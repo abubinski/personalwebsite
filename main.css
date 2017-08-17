@@ -1,21 +1,25 @@
 body {     
     position: relative;
-    font-family: Georgia;
+    font-family: 'Amiri', serif;
     padding-bottom: 200px;
 } 
 
+.navbar {
+    color: white;
+    background-color: black;
+}
 .about {
-    padding-top: 50px;
+    padding-top: 100px;
     text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
-h1 {    
-    padding-top: 50px;
-    text-align: center;     
-} 
- 
-p {        
-    font-size: 20px;     
-        
-} 
+.projects {
+    padding-top: 100px;
+    padding-bottom: 300px;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+}
  
